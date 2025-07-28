@@ -1,0 +1,34 @@
+# node_modules (bibliotecas instaladas)
+node_modules/
+
+# variáveis de ambiente
+.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# arquivos de build ou transpilers (caso use TypeScript ou Babel)
+dist/
+build/
+
+# arquivos do editor
+.vscode/
+.idea/
+*.swp
+
+# output do coverage de testes
+coverage/
+
+# arquivos temporários
+*.log
+*.tmp
+
+package-lock.json
+package.json
