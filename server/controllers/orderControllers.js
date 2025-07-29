@@ -18,6 +18,8 @@ const postOrder = async (req, res) => {
 };
 
 const getAllPizzas = (req, res) => {
+    // const { query: { name, price } } = req;
+    // console.log(`A pizza se chama ${name} e custa ${price} reais`)
     res.json(PizzasList)
 };
 
